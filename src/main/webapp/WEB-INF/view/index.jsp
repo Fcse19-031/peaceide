@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
- <link rel="stylesheet" href="https://github.com/Fcse19-031/runbw/blob/main/src/main/webapp/WEB-INF/view/css/style.css">
+ <link rel="stylesheet" href="../style.css">
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Bypass bw1</title>
 </head>
