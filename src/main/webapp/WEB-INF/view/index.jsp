@@ -24,7 +24,7 @@ background image behaves.
 
 <p>A background image for a p element:</p>
 
-<p style="background-image: url('https://github.com/Fcse19-031/runbw/blob/main/src/main/webapp/WEB-INF/view/images/pic.jpg');">
+<p style="background-image: url('https://github.com/Fcse19-031/runbw/blob/main/src/main/webapp/WEB-INF/view/images/pic.jpg?raw=true');">
 You can specify background images<br>
 for any visible HTML element.<br>
 In this example, the background image<br>
