@@ -8,7 +8,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Bypass bw1</title>
 </head>
-<body style="background-image: url('pic.jpg');">   
+<body style="background-color: red">   
 <div style="background-image: url('pic.jpg');">
 You can specify background images<br>
 for any visible HTML element.<br>
@@ -24,7 +24,7 @@ background image behaves.
 
 <p>A background image for a p element:</p>
 
-<p style="background-image: url('pic.jpg');">
+<p style="background-image: url(pic.jpg');">
 You can specify background images<br>
 for any visible HTML element.<br>
 In this example, the background image<br>
