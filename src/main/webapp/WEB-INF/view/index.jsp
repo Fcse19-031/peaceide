@@ -13,7 +13,7 @@
 <title>Bypass bw1</title>
 </head>
 <body>   
-<h1 style="color:red"><%= "HACK TEAMS" %>11</h1>
+<h1 style="color:red"><%= "HACK TEAMS 123" %>11</h1>
     
     
 </body>
