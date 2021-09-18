@@ -12,8 +12,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Bypass bw1</title>
 </head>
-<body style="background-image:url('images/pic.jpg')g">   
-<h1 style="align:center"><%= "HACK e TEAMS 123" %>11</h1>
+<body style="background-image: url('images/pic.jpg');">   
+<h1 style="color:black"><%= "HACK ef TEAMS 123" %>11</h1>
     
     
 </body>
