@@ -10,10 +10,11 @@
 <body>   
 <div class="loginform">
    <form >
-         userame  :<input type="email" id="email" name="email">
+         username<input type="email" id="email" name="email">
          <br>
-         password :<input type="password" id="pass" name="password">
+         password<input type="password" id="pass" name="password">
+       <br>
          <input type="submit" value="Sign in">
-      </form>
+    </form>
 </div>
 </html>
