@@ -8,6 +8,7 @@
     <link href="resources/css/style.css" rel="stylesheet">
 </head>
 <body>   
+    <h1>Sign with Teams Account</h1>
 <div class="loginform">
    <form >
          username<input type="email" id="email" name="email">
