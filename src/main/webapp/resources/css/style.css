@@ -25,3 +25,10 @@ form {
   /* -1/2 width */
   margin-top: -10px;
 }
+.paragh {
+  width: 100%;
+    height: 20%;
+    background-color: red;
+    position:absolute;
+    bottom:0;
+}
