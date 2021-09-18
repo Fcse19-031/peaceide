@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Bypass bw1</title>
 </head>
-<body style="background-color: yellow">   
+<body style="background-color: green">   
 <div style="background-image: url('https://drive.google.com/file/d/1Sn8SP0C3YznSlkL0HwPOyWFTEzzO4RRf/view?usp=sharing');">
 You can specify background images<br>
 for any visible HTML element.<br>
