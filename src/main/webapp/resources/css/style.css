@@ -5,8 +5,7 @@ background-image: url("https://1.bp.blogspot.com/-sTxAHAxirGM/WVbAe2098nI/AAAAAA
 
   /* Center and scale the image nicely */
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat-y;
 }
 
 form {
