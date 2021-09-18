@@ -1,9 +1,14 @@
-body {
-background-image: url("https://raw.githubusercontent.com/Fcse19-031/runbw/main/src/main/webapp/WEB-INF/view/images/pic.jpg");
+body, html {
+  height: 100%;
+  margin: 0;
+  background-image: url("https://raw.githubusercontent.com/Fcse19-031/runbw/main/src/main/webapp/WEB-INF/view/images/pic.jpg");
+
+  /* Full height */
   height: 100%; 
+
   /* Center and scale the image nicely */
   background-position: center;
-  background-repeat: repeat-y;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
