@@ -8,6 +8,13 @@ background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAA
   background-size: cover;
 }
 
+input {
+   border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
 form {
   color: green;
 }
