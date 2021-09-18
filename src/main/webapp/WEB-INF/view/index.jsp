@@ -8,7 +8,7 @@
 <title>Bypass bw1</title>
 </head>
 <body>   
-<h1 style="text-align:center"><%= "HACK TEAMS" %></h1>
+<h1 style="text-align:center"><%= "HACK TEAMS123" %></h1>
     
     
 </body>
