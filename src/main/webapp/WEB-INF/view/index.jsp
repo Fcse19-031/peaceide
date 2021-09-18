@@ -24,7 +24,7 @@ background image behaves.
 
 <p>A background image for a p element:</p>
 
-<p style="background-image: url(pic.jpg');">
+<p style="background-image: url('runbw/src/main/webapp/WEB-INF/view/pic.jpg');">
 You can specify background images<br>
 for any visible HTML element.<br>
 In this example, the background image<br>
