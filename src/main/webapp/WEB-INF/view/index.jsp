@@ -17,8 +17,7 @@
        <br>
          <input type="submit" value="Sign in">
        <br>
-    </form>
-    <p>
+         <p>
      12345<br>
      1<br>
      1<br>    
@@ -42,6 +41,8 @@
      1<br>
      1<br>
     </p>
+    </form>
+  
 </div>
 
 </body>  
