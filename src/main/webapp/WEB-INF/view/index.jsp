@@ -4,9 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>JSP - Hello World Tutorial - Programmer Gate</title>
+<title>Bypass bw</title>
 </head>
-<body>
-<%= "Hello World!" %>
+<body>   
+<h1 style="text-align:center"><%= "HACK TEAMS" %></h1>
+    
+    
 </body>
 </html>
