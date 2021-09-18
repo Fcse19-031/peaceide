@@ -8,7 +8,6 @@ body, html {
 
   /* Center and scale the image nicely */
   background-position: center;
-  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -44,10 +43,10 @@ form {
     bottom:0;
 }
 p {
- color:brown;
+ color:pink;
 
 }
 h1 {
-    color:green;
+    color:blue;
 
 }
