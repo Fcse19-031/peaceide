@@ -9,7 +9,7 @@
 <title>Bypass bw1</title>
 </head>
 <body style="background-color: red">   
-<div style="background-image: url('pic.jpg');">
+<div style="background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.techfunnel.com%2Finformation-technology%2Fdifferent-types-of-hackers%2F&psig=AOvVaw3MFOe5QpgIw63UTJka1jny&ust=1632022249820000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLDYrebKh_MCFQAAAAAdAAAAABAO');">
 You can specify background images<br>
 for any visible HTML element.<br>
 In this example, the background image<br>
