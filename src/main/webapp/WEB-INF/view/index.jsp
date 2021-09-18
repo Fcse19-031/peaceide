@@ -17,9 +17,8 @@
        <br>
          <input type="submit" value="Sign in">
     </form>
-</div>
-<div class="paragh">
-<p>
+ <div class="paragh">
+    <p>
     12345<br>
     1<br>
     1<br>    
@@ -32,7 +31,9 @@
     1<br>
     1<br>
     1<br>
-</p>
+  </p>
 </div>
+</div>
+
 </body>  
 </html>
