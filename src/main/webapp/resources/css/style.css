@@ -1,5 +1,6 @@
 body {
 background-image: url("https://github.com/Fcse19-031/runbw/blob/main/src/main/webapp/WEB-INF/view/images/pic.jpg?raw=true");
+  background:red;
   height: 100%; 
   /* Center and scale the image nicely */
   background-position: center;
