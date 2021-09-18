@@ -8,7 +8,7 @@
 <title>Bypass bw1</title>
 </head>
 <body>   
-<h1 style="text-align:center">1111<%= "HACK TEAMS123" %></h1>
+<h1 style="text-align:center">1111<%= "HACK TEAMS1234" %></h1>
     
     
 </body>
