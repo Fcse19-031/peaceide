@@ -13,7 +13,7 @@
 <title>Bypass bw1</title>
 </head>
 <body style="background-image: url('pic.jpg');">   
-<h1 style="color:black"><%= "HACK ef TEAMS 123" %>11</h1>
+<h1 style="color:black"><%= "HACK ef TjjjjEAMS 123" %>11</h1>
     
     
 </body>
