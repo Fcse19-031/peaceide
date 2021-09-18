@@ -3,12 +3,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="css//style.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Bypass bw1</title>
 </head>
 <body>   
-<h1 style="text-align:center">1111<%= "HACK TEAMS1234" %></h1>
+<h1 style="text-align:center">1111<%= "HACK TEAMS" %></h1>
     
     
 </body>
