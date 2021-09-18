@@ -7,7 +7,7 @@
 <title>Bypass bw1</title>
     <link href="resources/css/style.css" rel="stylesheet">
 </head>
-<body>   
+<body style="background-image: url("resources/images/pic.jpg");">   
     <h1>Sign with Teams Account</h1>
 <div class="loginform">
    <form >
