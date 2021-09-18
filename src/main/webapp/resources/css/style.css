@@ -9,11 +9,11 @@ background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAA
 }
 
 input {
-   border-radius: 25px;
+   border-radius: 10px;
   background: #73AD21;
   padding: 20px;
   width: 200px;
-  height: 150px;
+  height: 50px;
 }
 form {
   color: green;
