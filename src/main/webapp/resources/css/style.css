@@ -6,7 +6,9 @@ form {
   color: green;
 }
 .loginform {
-   margin: auto;
+  height: 200px;
+  position: relative;
+  margin: auto;
   width: 50%;
   border: 3px solid green;
   padding: 10px;
