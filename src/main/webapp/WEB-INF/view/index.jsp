@@ -3,11 +3,12 @@
 <!DOCTYPE html>
 <html>
 <head>
- <link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="mystyle.css">
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Bypass bw1</title>
+    <link rel="stylesheet" href="mystyle.css">
 </head>
-<body style="background-color: green">   
+<body style="background-color: white">   
 <div style="background-image: url('https://drive.google.com/file/d/1Sn8SP0C3YznSlkL0HwPOyWFTEzzO4RRf/view?usp=sharing');">
 You can specify background images<br>
 for any visible HTML element.<br>
