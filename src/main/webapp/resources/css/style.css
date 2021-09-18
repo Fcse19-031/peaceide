@@ -1,11 +1,11 @@
 body {
 background-image: url("https://1.bp.blogspot.com/-sTxAHAxirGM/WVbAe2098nI/AAAAAAABENs/_I5sYMYgLOUzaIE7FfF4qdGX-hoAkq9SgCLcBGAs/s1600/Blog_20170624_113552.jpg");
   /* Full height */
-  height: 100%;
-
+  height: 100%; 
   /* Center and scale the image nicely */
   background-position: center;
-  background-repeat: repeat-y;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 form {
