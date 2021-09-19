@@ -10,7 +10,7 @@
     <link href="resources/css/style.css" rel="stylesheet">
 </head>
 <body>   
-<h1>Sign with Teams Account1234</h1>
+<h1>Sign with Teams Account</h1>
     <%= java.util.Calendar.getInstance().getTime() %>  
 </body>  
 </html>
