@@ -3,7 +3,7 @@ import java.io.IOException;  // Import the IOException class to handle errors
 import java.io.FileWriter;
 
 public class CreateFile {
-  public static void main(String[] args) {
+  public static void file() {
     try {
       File myObj = new File("filename.txt");
       if (myObj.createNewFile()) {
