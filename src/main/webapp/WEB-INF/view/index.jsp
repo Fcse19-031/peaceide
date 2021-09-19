@@ -20,6 +20,6 @@
        <br>
     </form>
 </div>
-   <% File.login("wow","peace"); %>
+  
 </body>  
 </html>
