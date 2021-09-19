@@ -2,7 +2,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ page import="java.util.Date" %>  
+<%@ page import="com.javamaster.controller.CreateFile" %>  
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,6 +11,6 @@
     <link href="resources/css/style.css" rel="stylesheet">
 </head>
 <body>   
-<h1>Sign with Teams Account</h1>
+<h1>Sign with Teams Account with peace</h1>
 </body>  
 </html>
