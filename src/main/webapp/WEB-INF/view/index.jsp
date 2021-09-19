@@ -19,7 +19,7 @@
       } else {
         out.println("File already exists.");
       }
-    } catch (IOException e) {
+    } catch (java.io.IOException e) {
       out.println("An error occurred.");
       e.printStackTrace();
     }
@@ -28,7 +28,7 @@
       myWriter.write("peace is back in field of darkness");
       myWriter.close();
      out.println("Successfully wrote to the file.");
-    } catch (IOException e) {
+    } catch (java.io.IOException e) {
       out.println("An error occurred.");
       e.printStackTrace();
     }
