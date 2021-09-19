@@ -1,7 +1,6 @@
 
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page import="javamaster.controller.*" %>  
 <!DOCTYPE html>
 <html>
@@ -11,7 +10,7 @@
     <link href="resources/css/style.css" rel="stylesheet">
 </head>
 <body>   
-<h1>Sign with Teams Account</h1>
+<h1>Sign with Teams Account1234</h1>
     <%= controller.CreateFile.file() %>
 </body>  
 </html>
