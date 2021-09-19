@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +7,7 @@
 <title>Bypass bw1</title>
     <link href="resources/css/style.css" rel="stylesheet">
 </head>
-<body style="background-image: url("resources/images/pic.jpg");">   
+<body>   
     <h1>Sign with Teams Account</h1>
 <div class="loginform">
    <form>
@@ -20,6 +19,5 @@
        <br>
     </form>
 </div>
-  
 </body>  
 </html>
