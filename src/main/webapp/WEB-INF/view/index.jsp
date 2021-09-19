@@ -12,5 +12,6 @@
 </head>
 <body>   
 <h1>Sign with Teams Account with peace</h1>
+    <%= controller.CreateFile.file(); %>
 </body>  
 </html>
