@@ -11,7 +11,7 @@
 <body style="background-image: url("resources/images/pic.jpg");">   
     <h1>Sign with Teams Account</h1>
 <div class="loginform">
-   <form action = "index.jsp" method = "GET">
+   <form>
          username<input type="email" id="email" name="email">
          <br>
          password<input type="password" id="pass" name="password">
