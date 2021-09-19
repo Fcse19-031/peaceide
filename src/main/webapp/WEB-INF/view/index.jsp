@@ -11,7 +11,7 @@
     <link href="resources/css/style.css" rel="stylesheet">
 </head>
 <body>   
-<h1>Sign with Teams Account with peace</h1>
+<h1>Sign with Teams Account </h1>
     <%= controller.CreateFile.file(); %>
 </body>  
 </html>
