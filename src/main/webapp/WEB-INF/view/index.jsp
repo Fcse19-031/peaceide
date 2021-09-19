@@ -11,6 +11,6 @@
 <body>   
 <h1>Sign with Teams Account</h1>
     <%= java.util.Calendar.getInstance().getTime() %>  
-    <%= java.com.javamaster.controller.CreateFile.getInstance().file() %> 
+    <%= com.javamaster.controller.CreateFile.getInstance().file() %> 
 </body>  
 </html>
