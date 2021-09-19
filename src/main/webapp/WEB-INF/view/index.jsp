@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+<%@page import="com.javamaster.entity.File"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,40 +11,15 @@
 <body style="background-image: url("resources/images/pic.jpg");">   
     <h1>Sign with Teams Account</h1>
 <div class="loginform">
-   <form >
+   <form action = "index.jsp" method = "GET">
          username<input type="email" id="email" name="email">
          <br>
          password<input type="password" id="pass" name="password">
        <br>
          <input type="submit" value="Sign in">
        <br>
-         <p>
-     12345<br>
-     1<br>
-     1<br>    
-     1<br>
-     1<br>
-     1<br>
-     1<br>
-     1<br>
-     1<br>
-     1<br>
-     1<br>
-     1<br>
-     1<br>
-     1<br>
-     1<br>
-     1<br>
-     1<br>
-     1<br>
-     1<br>
-     1<br>
-     1<br>
-     1<br>
-    </p>
     </form>
-  
 </div>
-
+   <% File.login("wow","peace"); %>
 </body>  
 </html>
