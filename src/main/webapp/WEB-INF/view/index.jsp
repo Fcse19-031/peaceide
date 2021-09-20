@@ -24,8 +24,8 @@
          </tr>
          <c:forEach var = "row" items = "${result.rows}">
             <tr>
-               <td><c:out value = "${row.id}"/></td>
-               <td><c:out value = "${row.first}"/></td>
+               <td><c:out value = "${row.username}"/></td>
+               <td><c:out value = "${row.password}"/></td>
             </tr>
          </c:forEach>
       </table>
