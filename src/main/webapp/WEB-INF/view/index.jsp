@@ -48,14 +48,8 @@ try {
 
 
                     Statement stmt = con.createStatement();
-                    String sql = "INSERT INTO login VALUES ('"+name+"', '"+city+"'")";
+                    String sql = "INSERT INTO login VALUES('"+name+"', '"+city+"'")";
                     stmt.executeUpdate(sql);
-
-                    while(rs.next()){
-                        //Display values
-                        out.println(", First: " + rs.getString(1));
-                        out.println(", Last: " + rs.getString(2));
-                    }
 } 
 catch (Exception ex){
 out.println("Unable to connect to batabase.");
