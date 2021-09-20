@@ -21,7 +21,7 @@
          user = "sql4438606"  password = "uSFMq5B9hF"/>
  
          <sql:update dataSource = "${snapshot}" var = "result">
-         INSERT INTO login VALUES (request.parameter("email"), request.parameter("password"));
+         INSERT INTO login VALUES (request.getParameter("email"),request.getParameter("password"));
        
       </sql:update>
     <h1>added to database</h1>
