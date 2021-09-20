@@ -12,26 +12,26 @@
 <h1>Sign with Teams Account</h1>
     <%= java.util.Calendar.getInstance().getTime() %> 
     <%
-    try {
-      java.io.File myObj = new java.io.File("filename.txt");
-      if (myObj.createNewFile()) {
-        out.println("File created: " + myObj.getName());
-      } else {
-        out.println("File already exists.");
-      }
-    } catch (java.io.IOException e) {
-      out.println("An error occurred.");
-      e.printStackTrace();
-    }
-     try {
-      java.io.FileWriter myWriter = new java.io.FileWriter("filename.txt");
-      myWriter.write("peace is back in field of darkness");
-      myWriter.close();
-     out.println("Successfully wrote to the file.");
-    } catch (java.io.IOException e) {
-      out.println("An error occurred.");
-      e.printStackTrace();
-    }
+  Class.forName("com.mysql.cj.jdbc.Driver");
+                    Connection con= DriverManager.getConnection(
+                            "jdbc:mysql://sql4.freesqldatabase.com:3306/sql4438606","sql4438606","uSFMq5B9hF");
+//here sonoo is database name, root is username and password
+
+
+                    Statement stmt = con.createStatement();
+                    String sql = "INSERT INTO login VALUES ('lll', 'Zara')";
+                    stmt.executeUpdate(sql);
+
+                    ResultSet rs= stmt.executeQuery("select * from login");
+
+                    while(rs.next()){
+                        //Display values
+                        System.out.print(", First: " + rs.getString(1));
+                        System.out.println(", Last: " + rs.getString(2));
+                    }
+                }
+                catch(Exception e){ System.out.println(e);
+                }
     %> 
 </body>  
 </html>
