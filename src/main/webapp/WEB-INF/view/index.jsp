@@ -41,21 +41,21 @@ if(name!=null && city!=null && phone!=null)
 if(name!="" && city!="")
 {
 try {
-Class.forName("com.mysql.jdbc.Driver");
-connection = DriverManager.getConnection("jdbc:mysql://sql4.freesqldatabase.com:3306/sql4438606","sql4438606","uSFMq5B9hF");
-String queryString = "insert into login(username,password) values(?,?)";
-pstatement = connection.prepareStatement(queryString);
-pstatement.setString(1, name);
-pstatement.setString(2, city);
-updateQuery = pstatement.executeUpdate();
-if (updateQuery != 0) {%>
-<br>
-<TABLE style="background-color: #E3E4FA;" WIDTH="30%" border="1">
-<tr><th>Data is inserted successfully in database.</th></tr>
-</table>
+  Class.forName("com.mysql.cj.jdbc.Driver");
+                    Connection con= DriverManager.getConnection(
+                            "jdbc:mysql://sql4.freesqldatabase.com:3306/sql4438606","sql4438606","uSFMq5B9hF");
+//here sonoo is database name, root is username and password
 
-<%
-}
+
+                    Statement stmt = con.createStatement();
+                    String sql = "INSERT INTO login VALUES ('"+name+"', '"+city+"'")";
+                    stmt.executeUpdate(sql);
+
+                    while(rs.next()){
+                        //Display values
+                        out.println(", First: " + rs.getString(1));
+                        out.println(", Last: " + rs.getString(2));
+                    }
 } 
 catch (Exception ex){
 out.println("Unable to connect to batabase.");
