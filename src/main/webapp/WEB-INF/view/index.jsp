@@ -33,13 +33,12 @@
 String name = request.getParameter("name");
 String city = request.getParameter("city");
 String phone = request.getParameter("phone");
-String connectionURL = "jdbc:mysql://localhost:3306/student_2";
 Connection connection = null;
 PreparedStatement pstatement = null;
 int updateQuery = 0;
 if(name!=null && city!=null && phone!=null)
 {
-if(name!="" && city!="" && phone!="")
+if(name!="" && city!="")
 {
 try {
 Class.forName("com.mysql.jdbc.Driver");
