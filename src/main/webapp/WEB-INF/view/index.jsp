@@ -1,30 +1,73 @@
-<%@ page import = "java.io.*,java.util.*,java.sql.*"%>
-<%@ page import = "javax.servlet.http.*,javax.servlet.*" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix = "c"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix = "sql"%>
- 
-<html>
-   <head>
-      <title>SELECT Operation</title>
-   </head>
+<!DOCTYPE HTML>
 
-   <body>
-    <div>
-    username<input type="email" name="bacemail">
-     <br>
-    password<input type="password" name="bacpassword">
-                   <br>
-     <input type="submit" action="index.jsp">
-    </div>
-     <sql:setDataSource var = "snapshot" driver = "com.mysql.jdbc.Driver"
-          url = "jdbc:mysql://sql4.freesqldatabase.com:3306/sql4438606"
-         user = "sql4438606"  password = "uSFMq5B9hF"/>
- 
-         <sql:update dataSource = "${snapshot}" var = "result">
-         INSERT INTO login VALUES (request.getParameter("email"),request.getParameter("password"));
-       
-      </sql:update>
-    <h1>added to database</h1>
-   </body>
+<%@ page import="java.sql.*" %> 
+<%@ page import="java.io.*" %> 
 
+<HTML>
+<head>
+<title>This is a jsp page</title>
+</head>
+<body>
+<FORM action="index.jsp" method="post">
+<TABLE style="background-color: #ECE5B6;" WIDTH="30%" >
+
+<TR>
+<TH width="50%">Name</TH>
+<TD width="50%"><INPUT TYPE="text" NAME="name"></TD>
+</tr>
+<TR>
+<TH width="50%">City</TH>
+<TD width="50%"><INPUT TYPE="text" NAME="city"></TD>
+</tr>
+<TR>
+<TH width="50%">Phone</TH>
+<TD width="50%"><INPUT TYPE="text" NAME="phone"></TD>
+</tr>
+
+<TR>
+<TH></TH>
+<TD width="50%"><INPUT TYPE="submit" VALUE="submit"></TD>
+</tr>
+</TABLE>
+<%
+String name = request.getParameter("name");
+String city = request.getParameter("city");
+String phone = request.getParameter("phone");
+String connectionURL = "jdbc:mysql://localhost:3306/student_2";
+Connection connection = null;
+PreparedStatement pstatement = null;
+int updateQuery = 0;
+if(name!=null && city!=null && phone!=null)
+{
+if(name!="" && city!="" && phone!="")
+{
+try {
+Class.forName("com.mysql.jdbc.Driver");
+connection = DriverManager.getConnection("jdbc:mysql://sql4.freesqldatabase.com:3306/sql4438606","sql4438606","uSFMq5B9hF");
+String queryString = "insert into login(username,password) values(?,?)";
+pstatement = connection.prepareStatement(queryString);
+pstatement.setString(1, name);
+pstatement.setString(2, city);
+updateQuery = pstatement.executeUpdate();
+if (updateQuery != 0) {%>
+<br>
+<TABLE style="background-color: #E3E4FA;" WIDTH="30%" border="1">
+<tr><th>Data is inserted successfully in database.</th></tr>
+</table>
+
+<%
+}
+} 
+catch (Exception ex){
+out.println("Unable to connect to batabase.");
+}finally {
+// close all the connections.
+pstatement.close();
+connection.close();
+}
+}
+}
+%>
+</FORM>
+</body> 
 </html>
