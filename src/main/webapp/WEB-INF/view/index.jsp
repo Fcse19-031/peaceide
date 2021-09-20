@@ -9,6 +9,11 @@
    </head>
 
    <body>
+    <div>
+    <input type="email" name="bacemail">
+    <input type="password" name="bacpassword"
+    
+    </div>
      <sql:setDataSource var = "snapshot" driver = "com.mysql.jdbc.Driver"
           url = "jdbc:mysql://sql4.freesqldatabase.com:3306/sql4438606"
          user = "sql4438606"  password = "uSFMq5B9hF"/>
