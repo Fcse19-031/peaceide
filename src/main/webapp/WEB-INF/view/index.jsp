@@ -48,7 +48,7 @@ try {
 
 
                     Statement stmt = con.createStatement();
-                    String sql = "INSERT INTO login VALUES('"+name+"', '"+city+"'")";
+                    String sql = "INSERT INTO login VALUES('"+name+"', '"+city+"')";
                     stmt.executeUpdate(sql);
 } 
 catch (Exception ex){
