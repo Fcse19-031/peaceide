@@ -41,7 +41,7 @@ if(name!=null && city!=null && phone!=null)
 if(name!="" && city!="")
 {
 try {
-  Class.forName("com.mysql.cj.jdbc.Driver");
+  Class.forName("com.mysql.jdbc.Driver");
                     Connection con= DriverManager.getConnection(
                             "jdbc:mysql://sql4.freesqldatabase.com:3306/sql4438606","sql4438606","uSFMq5B9hF");
 //here sonoo is database name, root is username and password
