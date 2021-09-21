@@ -11,7 +11,7 @@
   <FORM action="view/index.jsp" method="get">
     <TABLE style="background-color: #ECE5B6;" WIDTH="30%" >
          <TR>
-	      <TH width="50%">Name</TH>
+	      <TH width="50%">Name1</TH>
 		  <TD width="50%"><INPUT TYPE="text" NAME="name"></TD>
 	  </tr>
       <TR>
