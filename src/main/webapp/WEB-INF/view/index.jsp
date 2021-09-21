@@ -14,25 +14,21 @@
          url = "jdbc:mysql://sql4.freesqldatabase.com:3306/sql4438606"
          user = "sql4438606"  password = "uSFMq5B9hF"/>
          <sql:update dataSource = "${snapshot}" var = "result">
-         INSERT INTO Employees VALUES ('peace', 'AI');
+         INSERT INTO login VALUES ('peace', 'AI');
       </sql:update>
  
       <sql:query dataSource = "${snapshot}" var = "result">
-         SELECT * from Employees;
+         SELECT * from login;
       </sql:query>
  
       <table border = "1" width = "100%">
          <tr>
-            <th>Emp ID</th>
-            <th>First Name</th>
             <th>Last Name</th>
             <th>Age</th>
          </tr>
          
          <c:forEach var = "row" items = "${result.rows}">
             <tr>
-               <td><c:out value = "${row.id}"/></td>
-               <td><c:out value = "${row.first}"/></td>
                <td><c:out value = "${row.last}"/></td>
                <td><c:out value = "${row.age}"/></td>
             </tr>
