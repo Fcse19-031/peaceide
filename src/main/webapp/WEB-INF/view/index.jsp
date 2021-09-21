@@ -7,7 +7,7 @@
   <TITLE>insert data using prepared statement </TITLE>
 </HEAD>
 	<a href="googlechrome://navigate?url=youtube.com">chrome</a>
-		<a href="youtube.com">you</a>
+		<a href="https://www.youtube.com/results?search_query=mzeks+mane">you</a>
     <BODY bgcolor="#ffffcc">
   <font size="+3" color="green"><br>Welcome in www.roseindia.net !</font>
   <FORM action="https://peacewebapp.herokuapp.com/" method="get">
