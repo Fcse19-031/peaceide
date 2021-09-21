@@ -1,56 +1,32 @@
-<!DOCTYPE HTML>
-
-<%@ page import="java.sql.*" %> 
-<%@ page import="java.io.*" %> 
-<%@ page import="java.sql.Connection" %> 
-<%@ page import="java.sql.DriverManager" %> 
-<%@ page import="java.sql.PreparedStatement " %> 
-<%@ page import="java.sql.Statement" %> 
-
-<HTML>
-<head>
-<title>This is a jsp page</title>
-</head>
-<body>
-<FORM action="index.jsp" method="post">
-First name:<br>
-<input type="text" name="first_name">
-<br>
-Last name:<br>
-<input type="text" name="last_name">
-<br>
-City name:<br>
-<input type="text" name="city_name">
-<br>
-Email Id:<br>
-<input type="email" name="email">
-<br><br>
-<input type="submit" value="submit">
-</form>
-<%
-String first_name=request.getParameter("first_name");
-String last_name=request.getParameter("last_name");
-String city_name=request.getParameter("city_name");
-String email=request.getParameter("email");
-
-try
-{
-Class.forName("com.mysql.jdbc.Driver");
-    Connection conn= DriverManager.getConnection(
-                            "jdbc:mysql://sql4.freesqldatabase.com:3306/sql4438606","sql4438606","uSFMq5B9hF");
-Statement st=conn.createStatement();
-
-int i=st.executeUpdate("insert into login(username,password)values('"+first_name+"','"+last_name+"')");
-out.println("Data is successfully inserted!");
-}
-catch(Exception e)
-{
-System.out.print(e);
-e.printStackTrace();
-}
+<%@page import="java.io.*,java.util.*,java.sql.*"  %> 
+<%@page import="javax.servlet.*,javax.servlet.http.*" %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql" %>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%        
+      String f_name = request.getParameter("f");          
+      String l_name = request.getParameter("l");
+      pageContext.setAttribute("f_name", f_name);
+      pageContext.setAttribute("l_name", l_name);
 %>
-</body>
-</html>
-</FORM>
-</body> 
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>connection with database</title>
+    </head>
+    <body>
+        <c:if test="${f_name != null}">
+        <sql:setDataSource var="sqldata" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://sql4.freesqldatabase.com:3306/sql4438606" user="sql4438606" password="uSFMq5B9hF" />
+        <sql:update dataSource="${sqldata}" var="result1">
+            INSERT INTO login (username,password) VALUES (?,?);
+            <sql:param value="${f_name}" />
+            <sql:param value="${l_name}" />
+        </sql:update>
+        </c:if>
+
+            <input type="text" name="f" /><br />
+            <input type="text" name="l" /><br />
+            <input type='submit' />
+    </body>
 </html>
