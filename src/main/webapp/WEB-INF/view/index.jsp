@@ -43,12 +43,11 @@ if(name!="" && city!="")
 try {
   Class.forName("com.mysql.jdbc.Driver");
                     Connection con= DriverManager.getConnection(
-                            "jdbc:mysql://sql4.freesqldatabase.com:3306/sql4438606","sql4438606","uSFMq5B9hF");
-//here sonoo is database name, root is username and password
+                            "jdbc:mysql://sql4.freesqldatabase.com:3306/sql4438606","sql4438606","uSFMq5B9hF")
 
                    String query = "INSERT INTO login(username, password)" + "VALUES (?, ?)";
                    Statement stmt = con.createStatement();
-                   pstatement = con.prepareStatement();
+                   pstatement = con.prepareStatement(query);
                    pstatement.setString(1, name);
                    pstatement.setString(2, city);
                    pstatement.executeUpdate();
