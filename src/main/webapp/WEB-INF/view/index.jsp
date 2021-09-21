@@ -8,7 +8,7 @@
 </HEAD>
     <BODY bgcolor="#ffffcc">
   <font size="+3" color="green"><br>Welcome in www.roseindia.net !</font>
-  <FORM action="index.jsp" method="get">
+  <FORM action="view/index.jsp" method="get">
     <TABLE style="background-color: #ECE5B6;" WIDTH="30%" >
          <TR>
 	      <TH width="50%">Name</TH>
