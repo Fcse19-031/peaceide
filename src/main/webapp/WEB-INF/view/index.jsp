@@ -25,8 +25,8 @@
         </sql:update>
         </c:if>
 
-            <input type="text" name="f" /><br />
-            <input type="text" name="l" /><br />
+            username<input type="text" name="f" /><br />
+            password<input type="text" name="l" /><br />
             <input type='submit' />
     </body>
 </html>
