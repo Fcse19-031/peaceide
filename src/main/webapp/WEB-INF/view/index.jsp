@@ -2,6 +2,10 @@
 
 <%@ page import="java.sql.*" %> 
 <%@ page import="java.io.*" %> 
+<%@ page import="java.sql.Connection" %> 
+<%@ page import="java.sql.DriverManager" %> 
+<%@ page import="java.sql.PreparedStatement " %> 
+<%@ page import="java.sql.Statement" %> 
 
 <HTML>
 <head>
