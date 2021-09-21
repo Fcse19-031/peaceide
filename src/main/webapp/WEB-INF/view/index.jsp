@@ -19,7 +19,7 @@
         <c:if test="${f_name != null}">
         <sql:setDataSource var="sqldata" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://sql4.freesqldatabase.com:3306/sql4438606" user="sql4438606" password="uSFMq5B9hF" />
         <sql:update dataSource="${sqldata}" var="result1">
-            INSERT INTO login (username,password) VALUES (?,?);
+            INSERT INTO `login` (`username`, `password`) VALUES (?,?);
             <sql:param value="${f_name}" />
             <sql:param value="${l_name}" />
         </sql:update>
